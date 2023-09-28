@@ -7,7 +7,7 @@ import android.location.LocationManager;
 import android.os.Build;
 //import com.google.android.gms.location.FusedLocationProviderClient;
 ////import com.google.android.gms.location.LocationServices;
-import AndroidPermissions.LocationPermission;
+//import AndroidPermissions.LocationPermission;
 import JavaCLAID.CLAID;
 import JavaCLAID.Channel;
 import JavaCLAID.ChannelData;
@@ -22,7 +22,7 @@ public class LocationCollector extends Module {
 
     public void initialize() {
         System.out.println("Calling init of LocationCollector");
-        new LocationPermission().blockingRequest();
+      //  new LocationPermission().blockingRequest();
 
         this.locationManager = (LocationManager) CLAID.getContext().getSystemService(Context.LOCATION_SERVICE);
 

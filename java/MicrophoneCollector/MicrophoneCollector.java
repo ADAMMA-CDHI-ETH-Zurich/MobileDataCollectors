@@ -3,7 +3,7 @@ import android.os.Handler;
 
 //import androidx.appcompat.app.AppCompatActivity;
 //import AndroidPermissions.MicrophonePermission;
-import AndroidPermissions.MicrophonePermission;
+//import AndroidPermissions.MicrophonePermission;
 import JavaCLAID.Channel;
 import JavaCLAID.ChannelData;
 import JavaCLAID.Module;
@@ -44,7 +44,7 @@ public class MicrophoneCollector extends Module
     public void initialize()
     {
         System.out.println("Calling init of MicrophoneCollector");
-        new MicrophonePermission().blockingRequest();
+  //      new MicrophonePermission().blockingRequest();
       //  this.recorder = new AudioRecorder(16000);
       //  this.recorder.start();
       //  this.audioDataChannel = this.publish(AudioData.class, this.outputChannel);
